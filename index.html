@@ -4,54 +4,69 @@
     <title>Uzoamaka's Portfolio</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QHIFRxoeDyzQccU4alG+KXJXLQcH/lI/7OMROXIEP4E8HyAsU24upO9mtJMMJbn0" crossorigin="anonymous">
 </head>
 <body>
-    <main>
-        <header>
-             <nav>
-               <div>
-                    <img src="dp.png" width="200px" height="200px">
-               </div>
-               <div class="section">
-                    <li><a href="#About"></a>Home</li>
-                    <li><a href="#profiie"></a> About</li>
-                    <li><a href="#projects"></a>Projects</li>
-               </div>
-            </nav>
-        </header>
-        <div class="center lead">
-            <div>
-                 <h1>Hello! I'm Uzo<i class="fa fa-smile"></i></h1>
-                 <ul>
-                    <li>Computer Scientist </li>
-                    <li>Software Developer </li>
-                    <li>Educationist </li>
-                    <li>Gospel Minister </li>
-                    <li>caterer </li>
-                    <li>Athlete </li>
-                    <li id="no-border">Agriculturist </li> 
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <img src="dp.png" width="150" height="150" class=" d-inline-block align-top" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#profile">Profile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
                     </ul>
                 </div>
-
+            </nav>
         </div>
-        <footer id="profile">
-                <div class="social-icons">
-                        <a href="https://www.codepen.io/your-work" target="_blank"><i class="fa fa-codepen"></i>Codepen</a>
-                        <a href="https://www.x.com/UdohUzoamaka" target="_blank"><i class="fa fa-twitter"></i>Twitter</a>
-                        <a href="https://www.linkedin.com/in/uzoamaka-udoh-7ba179243" target="_blank"><i class="fa fa-linkedin"></i>LinkedIn</a>
-                        <a href="https://www.freecodecamp.org/learn/2022/responsive-web-design/uudoh99" target="_blank">FreeCodeCamp<i class="fa-brands fa-free-code-camp"></i></a>
-                        <a href="" target="_blank">CV<i class="fa fa-cloud"></i></a>
+    </header>
+
+    <main>
+        <section class="text-center my-5">
+            <div class="container">
+                <h1>Hello! I'm Uzoamaka C. UDOH <i class="fa fa-smile"></i></h1>
+                <ul class="list-inline">
+                    <li class="list-inline-item">Computer Scientist</li>
+                    <li class="list-inline-item">Software Developer</li>
+                    <li class="list-inline-item">Educationist</li>
+                    <li class="list-inline-item">Gospel Minister</li>
+                    <li class="list-inline-item">Caterer</li>
+                    <li class="list-inline-item">Athlete</li>
+                    <li class="list-inline-item" id="no-border">Agriculturist</li>
+                </ul>
+            </div>
+        </section>
+
+        <footer class="bg-dark text-white text-center py-3" id="profile">
+            <div class="container">
+                <div class="social-icons mb-3">
+                    <a href="https://www.codepen.io/your-work" target="_blank" class="text-white me-3"><i class="fa fa-codepen"></i> Codepen</a>
+                    <a href="https://www.x.com/UdohUzoamaka" target="_blank" class="text-white me-3"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href="https://www.linkedin.com/in/uzoamaka-udoh-7ba179243" target="_blank" class="text-white me-3"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                    <a href="https://www.freecodecamp.org/certification/UUdoh99/responsive-web-design" target="_blank" class="text-white me-3">FreeCodeCamp <i class="fa-brands fa-free-code-camp"></i></a>
+                    <a href="#" target="_blank" class="text-white">CV <i class="fa fa-cloud"></i></a>
                 </div>
-                 <div class="copyright">
-                    <p>@copyright 2024 designed by Uzoamaka</p>
+                <div class="copyright">
+                    <p>&copy; 2024 Designed by Uzoamaka</p>
                 </div>
-        </footer>        
-     </main>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js" integrity="sha384-VoPFZZCFiW1qyrKyt6DKk4Tuk+fPvm03t4dTZzKU5Y6vl9Z4SUb7Qbdni2UhtQ7k" crossorigin="anonymous"></script> 
-    <script 
-            src="https://kit.fontawesome.com/57f866e821.js" crossorigin="anonymous">
-            </script>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/57f866e821.js" crossorigin="anonymous"></script>
 </body>
 </html>
