@@ -6,10 +6,10 @@
 
 html {
     font-size: 16px;
-    background-color: hsl(48, 3%, 66%);
+    background-color: hsl(47, 53%, 83%);
     scroll-behavior: smooth;
 }
-
+header, footer{ background-color: rgb(30, 30, 140);}
 a {
     color: rgb(152, 136, 136);
     font-size: 1rem;
