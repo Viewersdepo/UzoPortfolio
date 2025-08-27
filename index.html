@@ -60,19 +60,19 @@
         <h3>School Website</h3>
         <p>A responsive school website built with HTML, CSS, and Bootstrap.</p>
         <div class="tech">HTML, CSS, Bootstrap</div>
-        <a href="#" class="project-link">View Project</a>
+        <a href="https://Viewersdepo/github.com/BBA" target="_blank" class="project-link">View Project</a>
       </div>
       <div class="project-card">
         <h3>Pay4Me App</h3>
         <p>A financial app designed with Figma and developed using JavaScript.</p>
         <div class="tech">Figma, JavaScript, HTML, CSS</div>
-        <a href="#" class="project-link">View Project</a>
+        <a href="https://Viewersdepo/github.com/Pay4me" target="_blank" class="project-link">View Project</a>
       </div>
       <div class="project-card">
         <h3>Eternal Echo</h3>
         <p>A YouTube channel featuring AI-generated dramatic Bible series.</p>
         <div class="tech">AI, Video Editing, YouTube</div>
-        <a href="#" class="project-link">Visit Channel</a>
+        <a href="https://youtube.com/@eternalechovoice?si=uM6P_Q6k2_qcYtXd" target="_blank" class="project-link">Visit Channel</a>
       </div>
     </div>
   </section>
@@ -94,7 +94,7 @@
       </div>
       <div class="timeline-item">
         <h4>BSc. Computer Science</h4>
-        <span>National Open University of Nigeria | Jan 2020 – Apr 2025</span>
+        <span>National Open University of Nigeria | Jan 2020 – Apr 2026</span>
       </div>
     </div>
   </section>
@@ -102,16 +102,16 @@
   <section id="contact" class="contact">
     <h2>Get In Touch</h2>
     <form id="contact-form">
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
       <button type="submit">Send Message</button>
     </form>
     <div class="social-links">
       <a href="https://www.linkedin.com/in/uzoamaka-udoh-7ba179243" target="_blank"><i class="fab fa-linkedin"></i></a>
-      <a href="#"><i class="fab fa-github"></i></a>
-      <a href="#"><i class="fab fa-youtube"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="https://github.com/Viewersdepo?tab=repositories" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://youtube.com/@eternalechovoice?si=uM6P_Q6k2_qcYtXd" target="_blank"><i class="fab fa-youtube"></i></a>
+      <a href="https://www.instagram.com/uzoamakaudoh4?igsh=YzljYTk1ODg3Zg==" target="_blank"><i class="fab fa-instagram"></i></a>
     </div>
   </section>
 
@@ -120,5 +120,11 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  (function() {
+    emailjs.init("1m29GgkVH8H9pvrv5"); //Public Key
+  })();
+</script>
 </body>
 </html>
